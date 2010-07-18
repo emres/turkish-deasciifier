@@ -905,11 +905,19 @@ class Deasciifier:
             Turkish letters."""
             for i in range(len(self.ascii_string)):
                   c = self.ascii_string[i]
-                  if turkish_need_correction(c, point = i):
-                        self.turkish_string[i] = turkish_toggle_accent(c)
+                  if self.turkish_need_correction(c, point = i):
+                        #self.turkish_string[i] = turkish_toggle_accent(c)
+                        print self.turkish_toggle_accent(c),
                   else:
-                        self.turkish_string[i] = c
+                        #self.turkish_string[i] = c
+                        print c,
 
+
+      def turkish_toggle_accent(self, c):
+            if c == u'c':
+                  return (u'ç').encode("utf-8")
+            else:
+                  return c
 
       def turkish_need_correction(self, char, point = 0):
             """Determine if char at cursor needs correction."""
@@ -1033,5 +1041,8 @@ print dea.turkish_need_correction(u'c', point = 2)
 print dea.turkish_need_correction(u'm', point = 3)
 print dea.turkish_need_correction(u'c', point = 7)
 
+dea.convert_to_turkish()
 
+dea = Deasciifier(u"Acimasizca acelya gorunen bir sacmaliktansa acilip sacilmak...")
+dea.convert_to_turkish()
 
