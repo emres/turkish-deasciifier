@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import sys
 import deasciifier
 
@@ -8,7 +11,7 @@ class Deasciify:
     Example usage:
 
     $ echo "Opusmegi cagristiran catirtilar." | python deasciify.py
-    $ cat somefile.txt | python deasciify.py
+    $ cat somefile.txt | python deasciify
     """
 
 
@@ -18,5 +21,6 @@ class Deasciify:
         result = dea.convert_to_turkish()
         sys.stdout.write(result.encode("utf-8"))
 
-d = Deasciify()
-d.deasciify()
+if __name__ == "__main__":
+    d = Deasciify()
+    d.deasciify()
