@@ -1,0 +1,16 @@
+Source: deasciifier
+Section: text
+Priority: optional
+Maintainer: Recai Oktaş <roktas@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), python, pyflakes, git-core
+Build-Depends-Indep: python-support (>= 0.6)
+Standards-Version: 3.9.0
+Vcs-Git: git://github.com/emres/deasciifier.git
+Vcs-Browser: http://github.com/emres/deasciifier
+Homepage: http://github.com/emres/deasciifier
+
+Package: deasciifier
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: deasciify a given Turkish text
+ WRITEME

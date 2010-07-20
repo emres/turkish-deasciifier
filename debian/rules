@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+PYCHECKER := --quiet
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	python setup.py check
+	python setup.py test
+	dh_auto_configure
