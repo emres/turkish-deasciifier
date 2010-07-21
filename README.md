@@ -9,7 +9,7 @@ by Deniz Yüret.
 
 Example library usage:
 
-		import Deasciifier
+		from turkish.deasciifier import Deasciifier
 
 		my_ascii_turkish_txt = "Opusmegi cagristiran catirtilar."
 		deasciifier = Deasciifier(my_ascii_turkish_txt.decode("utf-8"))
@@ -18,5 +18,5 @@ Example library usage:
 
 Example command line usage:
 
-		$ echo "Opusmegi cagristiran catirtilar." | python deasciify
-		$ cat somefile.txt | python deasciify
+		$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify
+		$ cat somefile.txt | turkish-deasciify
