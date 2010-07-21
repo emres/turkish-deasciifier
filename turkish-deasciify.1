@@ -11,18 +11,25 @@ If you try to write Turkish text without using Turkish letters (e.g. maybe you
 don't have a Turkish keyboard) and then need to convert that into correct form
 of Turkish then you can use this utility.
 
-.SH AUTHOR 
-Written by Emre Sevinç <emre.sevinc@gmail.com>
-
-.SH EXAMPLE
+.SH EXAMPLES
 .PP
 $ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify
 
 .PP
-$ cat somefile.txt | python turkish-deasciify
+$ cat somefile.txt | turkish-deasciify
 
+.SH AUTHOR 
+Written by Emre Sevinç <emre.sevinc@gmail.com>
 
 .SH CREDITS
 Original idea and implementation (in Emacs Lisp) by Deniz Yüret.
 .PP
 Initial Debian packaging by Recai Oktaş.
+
+.SH SEE ALSO
+For the theory behind the system please read the following:
+
+.PP
+http://denizyuret.blogspot.com/2006/11/greedy-prepend-algorithm-for-decision.html 
+.PP 
+http://denizyuret.blogspot.com/2006/11/emacs-turkish-mode.html
