@@ -1,7 +1,7 @@
 Source: deasciifier
 Section: text
 Priority: optional
-Maintainer: Recai Oktaş <roktas@debian.org>
+Maintainer: Emre Sevinç <emre.sevinc@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), python, pyflakes, git-core
 Build-Depends-Indep: python-support (>= 0.6)
 Standards-Version: 3.9.0
