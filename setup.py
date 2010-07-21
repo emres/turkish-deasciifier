@@ -143,15 +143,15 @@ except ImportError:
 from distutils.core import setup
 setup(
     cmdclass         = CMDCLASS,
-    name             = 'Deasciifier',
+    name             = 'Turkish Deasciifier',
+    description      = 'deasciify a given Turkish text',
     version          = '0.1',
-    author           = 'Emre Sevinç <emre.sevin@gmail.com>',
+    author           = 'Emre Sevinç',
+    author_email     = 'emre.sevinc@gmail.com',
     license          = 'Public Domain',
-    url              = 'http://github.com/emres/deasciifier',
-    description      = 'This class helps to deasciify Turkish texts. If a Turkish text is written using only ASCII letters, that is not including any Turkish letters, then by using the methods of this class it is possible to convert that text into a correct form, that includes corresponding Turkish letters. It cannot do this perfectly but works most of the time.',
-    keywords         = ('deasciifier', 'turkish'),
+    url              = 'http://github.com/emres/turkish-deasciifier',
+    keywords         = ('turkish', 'deasciifier'),
     platforms        = 'any',
-    package_dir      = { 'deasciifier': '.' },
-    packages         = ['deasciifier'],
-    scripts          = ['deasciify'],
+    packages         = ['turkish'],
+    scripts          = ['turkish-deasciify'],
 )

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import deasciifier
+from turkish.deasciifier import Deasciifier
 import unittest
 
 class TestDeasciifierFunctions(unittest.TestCase):
@@ -24,7 +24,7 @@ class TestDeasciifierFunctions(unittest.TestCase):
 
     def test_convert_to_turkish(self):
         for i in range(len(self.ascii_strings)):
-            dea = deasciifier.Deasciifier(self.ascii_strings[i]) 
+            dea = Deasciifier(self.ascii_strings[i])
             result = dea.convert_to_turkish()
             self.assertEqual(result, self.turkish_strings[i])
 
