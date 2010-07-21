@@ -1,20 +1,21 @@
-Source: deasciifier
-Section: text
+Source: turkish-deasciifier
+Section: python
 Priority: optional
 Maintainer: Emre Sevinç <emre.sevinc@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), python, pyflakes
 Build-Depends-Indep: python-support (>= 0.6)
 Standards-Version: 3.9.0
-Vcs-Git: git://github.com/emres/deasciifier.git
-Vcs-Browser: http://github.com/emres/deasciifier
-Homepage: http://github.com/emres/deasciifier
+Vcs-Git: git://github.com/emres/turkish-deasciifier.git
+Vcs-Browser: http://github.com/emres/turkish-deasciifier
+Homepage: http://github.com/emres/turkish-deasciifier
 
-Package: deasciifier
+Package: python-turkish-deasciifier
 Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Provides: ${python:Provides}
 Description: deasciify a given Turkish text
- This class helps to deasciify Turkish texts. If a Turkish text is written using
- only ASCII letters, that is not including any Turkish letters, then by using the
- methods of this class it is possible to convert that text into a correct form,
- that includes corresponding Turkish letters. It cannot do this perfectly but
- works most of the time.
+ This class helps to deasciify Turkish texts. If a Turkish text is written 
+ using only ASCII letters, that is not including any Turkish letters, then
+ by using the methods of this class it is possible to convert that text into 
+ a correct form, that includes corresponding Turkish letters. It cannot do this 
+ perfectly but works most of the time.

@@ -4,4 +4,4 @@ tmp
 source
 *.log
 *.debhelper
-deasciifier/
+*-deasciifier/
