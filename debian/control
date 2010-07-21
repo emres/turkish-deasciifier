@@ -13,4 +13,8 @@ Package: deasciifier
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}
 Description: deasciify a given Turkish text
- WRITEME
+ This class helps to deasciify Turkish texts. If a Turkish text is written using
+ only ASCII letters, that is not including any Turkish letters, then by using the
+ methods of this class it is possible to convert that text into a correct form,
+ that includes corresponding Turkish letters. It cannot do this perfectly but
+ works most of the time.
