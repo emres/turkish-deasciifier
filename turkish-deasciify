@@ -10,8 +10,8 @@ class Deasciify:
 
     Example usage:
 
-    $ echo "Opusmegi cagristiran catirtilar." | python deasciify.py
-    $ cat somefile.txt | python deasciify
+    $ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify
+    $ cat somefile.txt | turkish-deasciify
     """
 
 
