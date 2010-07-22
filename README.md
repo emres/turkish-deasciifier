@@ -1,4 +1,4 @@
-# deasciifier: Turkish deasciifier
+# turkish-deasciifier: Turkish deasciifier
 
 This is a deasciifier for Turkish. It takes a Turkish string containing only
 ASCII characters and replaces the relevant characters with their corresponding
