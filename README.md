@@ -5,7 +5,7 @@ ASCII characters and replaces the relevant characters with their corresponding
 Turkish letters.
 
 This system is based on the [turkish-mode](http://github.com/emres/turkish-mode)
-by Deniz Yüret.
+by Dr. Deniz Yüret.
 
 Example library usage:
 
