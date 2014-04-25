@@ -13,7 +13,7 @@ CMDCLASS = {}
 
 from distutils.core import Command
 from os.path import join as pjoin
-import os
+import os, sys
 import unittest
 import tests
 
@@ -67,7 +67,7 @@ CMDCLASS['clean'] = CleanCommand
 try:# Check command is optional.
     # Mute pylint: disable-msg=E0611
     from pyflakes.checker import Checker as FlakeChecker
-    import compiler, sys
+    import compiler
 
     def check(code_string, filename):
         """check a code string"""
