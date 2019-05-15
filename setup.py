@@ -59,8 +59,8 @@ class CleanCommand(Clean):
                     p = pjoin(root, f)
                     try:
                         os.unlink(p)
-                    except OSError, e:
-                        print >> sys.stderr, 'could not clean %r: %s' % (p, e)
+                    except OSError as e:
+                        print('could not clean %r: %s' % (p, e), file=sys.stderr)
 
 CMDCLASS['clean'] = CleanCommand
 
@@ -78,24 +78,24 @@ try:# Check command is optional.
             try:
                 (lineno, offset, line) = value[1][1:]
             except IndexError:
-                print >> sys.stderr, 'could not compile %r' % (filename,)
+                print('could not compile %r' % (filename,), file=sys.stderr)
                 return 1
             if line.endswith("\n"):
                 line = line[:-1]
-            print >> sys.stderr, '%s:%d: could not compile' % (filename, lineno)
-            print >> sys.stderr, line
-            print >> sys.stderr, " " * (offset-2), "^"
+            print('%s:%d: could not compile' % (filename, lineno), file=sys.stderr)
+            print(line, file=sys.stderr)
+            print(" " * (offset-2), "^", file=sys.stderr)
             return 1
         else:
             import locale
             try:
                 locale.setlocale(locale.LC_ALL, 'C')
-            except locale.Error, e:
-                print >> sys.stderr, 'setlocale failed: %s' % (e,)
+            except locale.Error as e:
+                print('setlocale failed: %s' % (e,), file=sys.stderr)
             w = FlakeChecker(tree, filename)
             w.messages.sort(lambda a, b: cmp(a.lineno, b.lineno))
             for warning in w.messages:
-                print warning
+                print(warning)
             return len(w.messages)
 
     def check_path(filename):
@@ -133,7 +133,7 @@ try:# Check command is optional.
 
     CMDCLASS['check'] = CheckCommand
 except ImportError:
-    print >> sys.stderr, "couldn't found Pyflakes"
+    print("couldn't found Pyflakes", file=sys.stderr)
 
 
 # ----------------------------------------------------------------------------
