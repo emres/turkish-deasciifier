@@ -3363,7 +3363,7 @@ class Deasciifier:
             self.turkish_string = ascii_string
 
       def print_turkish_string(self):
-            print self.turkish_string
+            print(self.turkish_string)
 
       def set_char_at(self, mystr, pos, c):
             return mystr[0:pos] + c + mystr[pos+1:]
