@@ -3323,7 +3323,7 @@ class Deasciifier:
                                u'Ş': u'S'}
 
       turkish_downcase_asciify_table = {}
-      for ch in string.uppercase:
+      for ch in string.ascii_uppercase:
             turkish_downcase_asciify_table[ch] = ch.lower()
             turkish_downcase_asciify_table[ch.lower()] = ch.lower()
       turkish_downcase_asciify_table[u'ç'] = u'c'
@@ -3340,7 +3340,7 @@ class Deasciifier:
       turkish_downcase_asciify_table[u'Ü'] = u'u'
 
       turkish_upcase_accents_table = {}
-      for ch in string.uppercase:
+      for ch in string.ascii_uppercase:
             turkish_upcase_accents_table[ch] = ch.lower()
             turkish_upcase_accents_table[ch.lower()] = ch.lower()
       turkish_upcase_accents_table[u'ç'] = u'C'
@@ -3363,7 +3363,7 @@ class Deasciifier:
             self.turkish_string = ascii_string
 
       def print_turkish_string(self):
-            print self.turkish_string
+            print(self.turkish_string)
 
       def set_char_at(self, mystr, pos, c):
             return mystr[0:pos] + c + mystr[pos+1:]
