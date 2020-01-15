@@ -17,9 +17,9 @@ class Deasciify:
 
     def deasciify(self):
         string = sys.stdin.read()
-        dea = Deasciifier(string)
+        dea = Deasciifier(string.decode("utf-8"))
         result = dea.convert_to_turkish()
-        sys.stdout.write(result)
+        sys.stdout.write(result.encode("utf-8"))
 
 if __name__ == "__main__":
     d = Deasciify()
