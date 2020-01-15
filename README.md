@@ -1,9 +1,9 @@
 
 # turkish-deasciifier: Turkish deasciifier
 
-This is a **deasciifier** for Turkish that solves the problem of **diacritics restoration**. It takes a Turkish string containing only
+This is a **deasciifier** Python library and command line utility for Turkish that solves the problem of **diacritics restoration**. It takes a Turkish string containing only
 ASCII characters (that is, without proper diacritics) and replaces the relevant characters with their corresponding
-Turkish letters. 
+Turkish letters.  
 
 Keep in mind that diacritics restoration (deasciification) for Turkish doesn't work 100% of the time; it is an active research topic. Still, this library is good enough for many practical purposes, and served many people and projects in the last 10 years.
 
@@ -21,7 +21,7 @@ Keep in mind that [switching to Python 3 is strongly recommended](https://www.py
 
     pip install Turkish-Deasciifier
 
-## Example Usage
+## Example Python Library Usage
 ### Python 3
 
 		from turkish.deasciifier import Deasciifier
@@ -42,7 +42,7 @@ Keep in mind that [switching to Python 3 is strongly recommended](https://www.py
 		
 
 
-### CLI (Command Line Interface)
+### Example CLI (Command Line Interface) Usage
 #### Python 3
 Example tested in a Bash shell:
 
