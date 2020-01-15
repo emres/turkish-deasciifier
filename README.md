@@ -43,8 +43,17 @@ Keep in mind that [switching to Python 3 is strongly recommended](https://www.py
 
 
 ### CLI (Command Line Interface)
+#### Python 3
 Example tested in a Bash shell:
 
 		$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify
 		$ cat somefile.txt | turkish-deasciify
+
+#### Python 2
+Keep in mind that [switching to Python 3 is strongly recommended](https://www.python.org/doc/sunset-python-2/)!
+
+Example tested in a Bash shell:
+
+		$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify-python2
+		$ cat somefile.txt | turkish-deasciify-python2
 
