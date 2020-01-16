@@ -86,7 +86,7 @@ $ cat somefile.txt | turkish-deasciify-python2
 * Node.js: [https://github.com/f/deasciifier/](https://github.com/f/deasciifier/)
 * VIM: [https://github.com/joom/turkish-deasciifier.vim](https://github.com/joom/turkish-deasciifier.vim)
 
-## Advanded Research
+## Advanced Research
 For recent advanced scientific research articles, please see the following:
 
 * Diacritics Restoration Using Neural Networks
