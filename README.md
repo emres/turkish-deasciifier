@@ -13,6 +13,12 @@ Keep in mind that diacritics restoration (deasciification) for Turkish doesn't w
 
 This system is based on the [turkish-mode](http://github.com/emres/turkish-mode) for [GNU Emacs](https://www.gnu.org/software/emacs/) by [Prof. Deniz Yüret](http://www.denizyuret.com/).
 
+# Table of Contents
+1. [Installation](#installation)
+2. [Example Python Library Usage](#example-python-library-usage)
+3. [Example CLI (Command Line Interface) Usage](#example-cli-command-line-interface-usage)
+4. [Other Programming Languages and Systems](#other-programming-languages-and-systems)
+
 ## Installation
 ### Python 3
 For now, the recommended way to install is to use [pip](https://pypi.org/project/pip/) and install direcly from the GitHub repository:
