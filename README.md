@@ -23,48 +23,59 @@ This system is based on the [turkish-mode](http://github.com/emres/turkish-mode)
 ### Python 3
 For now, the recommended way to install is to use [pip](https://pypi.org/project/pip/) and install direcly from the GitHub repository:
 
-    pip install git+https://github.com/emres/turkish-deasciifier.git
-    
+```shell
+pip install git+https://github.com/emres/turkish-deasciifier.git
+```
+
 ### Python 2
 Keep in mind that [switching to Python 3 is strongly recommended](https://www.python.org/doc/sunset-python-2/)! If you insist on using Python 2.x, you can install using the following command:
 
-    pip install Turkish-Deasciifier
+```shell
+pip install Turkish-Deasciifier
+```
 
 ## Example Python Library Usage
 ### Python 3
+```python
+from turkish.deasciifier import Deasciifier
 
-		from turkish.deasciifier import Deasciifier
+my_ascii_turkish_txt = "Opusmegi cagristiran catirtilar."
+deasciifier = Deasciifier(my_ascii_turkish_txt)
+my_deasciified_turkish_txt = deasciifier.convert_to_turkish()
+print(my_deasciified_turkish_txt)
+```
 
-		my_ascii_turkish_txt = "Opusmegi cagristiran catirtilar."
-		deasciifier = Deasciifier(my_ascii_turkish_txt)
-		my_deasciified_turkish_txt = deasciifier.convert_to_turkish()
-		print(my_deasciified_turkish_txt)
 ### Python 2
 Keep in mind that [switching to Python 3 is strongly recommended](https://www.python.org/doc/sunset-python-2/)! If you insist on using Python 2.x, you can use the library in the following manner: 
 
-		from turkish.deasciifier import Deasciifier
+```python
+from turkish.deasciifier import Deasciifier
 
-		my_ascii_turkish_txt = "Opusmegi cagristiran catirtilar."
-		deasciifier = Deasciifier(my_ascii_turkish_txt.decode("utf-8"))
-		my_deasciified_turkish_txt = deasciifier.convert_to_turkish()
-		print my_deasciified_turkish_txt.encode("utf-8")
-		
+my_ascii_turkish_txt = "Opusmegi cagristiran catirtilar."
+deasciifier = Deasciifier(my_ascii_turkish_txt.decode("utf-8"))
+my_deasciified_turkish_txt = deasciifier.convert_to_turkish()
+print my_deasciified_turkish_txt.encode("utf-8")
+```		
 
 
 ### Example CLI (Command Line Interface) Usage
 #### Python 3
 Example tested in a Bash shell:
 
-		$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify
-		$ cat somefile.txt | turkish-deasciify
+```shell
+$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify
+$ cat somefile.txt | turkish-deasciify
+```
 
 #### Python 2
 Keep in mind that [switching to Python 3 is strongly recommended](https://www.python.org/doc/sunset-python-2/)!
 
 Example tested in a Bash shell:
 
-		$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify-python2
-		$ cat somefile.txt | turkish-deasciify-python2
+```shell
+$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify-python2
+$ cat somefile.txt | turkish-deasciify-python2
+```
 
 ### Other Programming Languages and Systems
 
