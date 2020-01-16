@@ -11,8 +11,7 @@ http://turkceyap.appspot.com/
 
 Keep in mind that diacritics restoration (deasciification) for Turkish doesn't work 100% of the time; it is an active research topic! Still, this library is good enough for many practical purposes, and served many people and projects in the last 10 years.
 
-This system is based on the [turkish-mode](http://github.com/emres/turkish-mode)
-by [Prof. Deniz Yüret](http://www.denizyuret.com/).
+This system is based on the [turkish-mode](http://github.com/emres/turkish-mode) for [GNU Emacs](https://www.gnu.org/software/emacs/) by [Prof. Deniz Yüret](http://www.denizyuret.com/).
 
 ## Installation
 ### Python 3
