@@ -61,3 +61,10 @@ Example tested in a Bash shell:
 		$ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify-python2
 		$ cat somefile.txt | turkish-deasciify-python2
 
+### Other Programming Languages and Systems
+
+* Java: [https://github.com/ahmetb/turkish-deasciifier-java](https://github.com/ahmetb/turkish-deasciifier-java)
+* Perl: [https://metacpan.org/pod/release/BURAK/Lingua-TR-ASCII-0.13/lib/Lingua/TR/ASCII.pm](https://metacpan.org/pod/release/BURAK/Lingua-TR-ASCII-0.13/lib/Lingua/TR/ASCII.pm)
+* Haskell:  [http://hackage.haskell.org/package/turkish-deasciifier](http://hackage.haskell.org/package/turkish-deasciifier)
+* Node.js: [https://github.com/f/deasciifier/](https://github.com/f/deasciifier/)
+* VIM: [https://github.com/joom/turkish-deasciifier.vim](https://github.com/joom/turkish-deasciifier.vim)
