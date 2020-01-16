@@ -18,6 +18,7 @@ This system is based on the [turkish-mode](http://github.com/emres/turkish-mode)
 2. [Example Python Library Usage](#example-python-library-usage)
 3. [Example CLI (Command Line Interface) Usage](#example-cli-command-line-interface-usage)
 4. [Other Programming Languages and Systems](#other-programming-languages-and-systems)
+5. [Advanced Research](#advanced-research)
 
 ## Installation
 ### Python 3
@@ -84,3 +85,13 @@ $ cat somefile.txt | turkish-deasciify-python2
 * Haskell:  [http://hackage.haskell.org/package/turkish-deasciifier](http://hackage.haskell.org/package/turkish-deasciifier)
 * Node.js: [https://github.com/f/deasciifier/](https://github.com/f/deasciifier/)
 * VIM: [https://github.com/joom/turkish-deasciifier.vim](https://github.com/joom/turkish-deasciifier.vim)
+
+## Advanded Research
+For recent advanced scientific research articles, please see the following:
+
+* Diacritics Restoration Using Neural Networks
+    * Paper: [https://www.aclweb.org/anthology/L18-1247.pdf](https://www.aclweb.org/anthology/L18-1247.pdf)
+    * Code: [https://github.com/arahusky/diacritics_restoration](https://github.com/arahusky/diacritics_restoration)
+    * Data sets: [Corpus for training and evaluating diacritics restoration systems](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2607)
+* Diacritic restoration of Turkish tweets with word2vec
+    * Paper: [https://www.sciencedirect.com/science/article/pii/S2215098618308668](https://www.sciencedirect.com/science/article/pii/S2215098618308668)
