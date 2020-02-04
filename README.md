@@ -85,6 +85,7 @@ $ cat somefile.txt | turkish-deasciify-python2
 * Haskell:  [http://hackage.haskell.org/package/turkish-deasciifier](http://hackage.haskell.org/package/turkish-deasciifier)
 * Node.js: [https://github.com/f/deasciifier/](https://github.com/f/deasciifier/)
 * VIM: [https://github.com/joom/turkish-deasciifier.vim](https://github.com/joom/turkish-deasciifier.vim)
+* Emacs Lisp: [https://github.com/emres/turkish-mode](https://github.com/emres/turkish-mode) (also available as a [package in MELPA](https://melpa.org/#/turkish))
 
 ## Advanced Research
 For recent advanced scientific research articles, please see the following:
