@@ -22,7 +22,7 @@ This system is based on the [turkish-mode](http://github.com/emres/turkish-mode)
 
 ## Installation
 ### Python 3
-For now, the recommended way to install is to use [pip](https://pypi.org/project/pip/) and install direcly from the GitHub repository:
+For now, _the recommended way_ to install is to use [pip](https://pypi.org/project/pip/) and install direcly from the [project's GitHub repository](https://github.com/emres/turkish-deasciifier):
 
 ```shell
 pip install git+https://github.com/emres/turkish-deasciifier.git
