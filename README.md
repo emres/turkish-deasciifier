@@ -90,6 +90,10 @@ $ cat somefile.txt | turkish-deasciify-python2
 ## Advanced Research
 For recent advanced scientific research articles, please see the following:
 
+* Diacritic Restoration Using Recurrent Neural Network
+    * Paper: https://github.com/aysnrgenc/TurkishDeasciifier/blob/master/diacritic-restoration-recurrent.pdf
+    * Code: https://github.com/aysnrgenc/TurkishDeasciifier
+    * Data sets: https://github.com/aysnrgenc/TurkishDeasciifier/tree/master/data
 * Diacritics Restoration Using Neural Networks
     * Paper: [https://www.aclweb.org/anthology/L18-1247.pdf](https://www.aclweb.org/anthology/L18-1247.pdf)
     * Code: [https://github.com/arahusky/diacritics_restoration](https://github.com/arahusky/diacritics_restoration)
