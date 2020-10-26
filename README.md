@@ -100,3 +100,7 @@ For recent advanced scientific research articles, please see the following:
     * Data sets: [Corpus for training and evaluating diacritics restoration systems](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2607)
 * Diacritic restoration of Turkish tweets with word2vec
     * Paper: [https://www.sciencedirect.com/science/article/pii/S2215098618308668](https://www.sciencedirect.com/science/article/pii/S2215098618308668)
+* Vowel and Diacritic Restoration for Social Media Texts
+    * Paper: [https://www.aclweb.org/anthology/W14-1307/](https://www.aclweb.org/anthology/W14-1307/)
+    * Full text (PDF): [https://www.aclweb.org/anthology/W14-1307.pdf](https://www.aclweb.org/anthology/W14-1307.pdf)
+    * Web demo: [http://tools.nlp.itu.edu.tr/Deasciifier](http://tools.nlp.itu.edu.tr/Deasciifier)
