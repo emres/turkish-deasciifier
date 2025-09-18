@@ -86,10 +86,13 @@ $ cat somefile.txt | turkish-deasciify-python2
 * Node.js: [https://github.com/f/deasciifier/](https://github.com/f/deasciifier/)
 * VIM: [https://github.com/joom/turkish-deasciifier.vim](https://github.com/joom/turkish-deasciifier.vim)
 * Emacs Lisp: [https://github.com/emres/turkish-mode](https://github.com/emres/turkish-mode) (also available as a [package in MELPA](https://melpa.org/#/turkish))
+* Swift: [https://github.com/armish/TurkishDeasciifier](https://github.com/armish/TurkishDeasciifier)
 
 ## Advanced Research
 For recent advanced scientific research articles, please see the following:
 
+* [The Deceptively Complex World of Turkish Diacritics: A Neural Network Journey](https://ergoso.me/turkish/neural/network/github/diacritics/macos/app/swift/python/2025/09/17/turkish-diacritic-restoration.html)
+    * [https://github.com/armish/nokta-ai](https://github.com/armish/nokta-ai)
 * Diacritic Restoration Using Recurrent Neural Network
     * Paper: https://github.com/aysnrgenc/TurkishDeasciifier/blob/master/diacritic-restoration-recurrent.pdf
     * Code: https://github.com/aysnrgenc/TurkishDeasciifier
