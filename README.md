@@ -9,7 +9,7 @@ The web-based, online version of this system is available at:
 
 ~~http://turkceyap.appspot.com~~ (I'm currently too busy to fix it, please use https://deasciifier.com/ instead!)
 
-Keep in mind that diacritics restoration (deasciification) for Turkish doesn't work 100% of the time; it is an active research topic! Still, this library is good enough for many practical purposes, and served many people and projects in the last 10 years.
+Keep in mind that diacritics restoration (deasciification) for Turkish doesn't work 100% of the time; it is an active research topic! Still, this library is good enough for many practical purposes, and served many people and projects in the last 15 years.
 
 This system is based on the [turkish-mode](http://github.com/emres/turkish-mode) for [GNU Emacs](https://www.gnu.org/software/emacs/) by [Prof. Deniz Yüret](http://www.denizyuret.com/).
 
