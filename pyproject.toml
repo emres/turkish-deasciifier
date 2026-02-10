@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turkish-deasciifier"
+version = "0.1"
+description = "Deasciify a given Turkish text"
+readme = "README.md"
+license = { text = "Public Domain" }
+authors = [
+    { name = "Emre Sevinç", email = "emre.sevinc@gmail.com" }
+]
+keywords = ["turkish", "deasciifier", "diacritics", "nlp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: Public Domain",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Text Processing :: Linguistic",
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = []
+
+[project.urls]
+Homepage = "https://github.com/emres/turkish-deasciifier"
+Repository = "https://github.com/emres/turkish-deasciifier"
+
+[project.scripts]
+turkish-deasciify = "turkish.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["turkish*"]

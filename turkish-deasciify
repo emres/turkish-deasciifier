@@ -1,26 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-import sys
-from turkish.deasciifier import Deasciifier
-
-class Deasciify:
-    """
-    This is the commandline utility for deasciification.
-
-    Example usage:
-
-    $ echo "Opusmegi cagristiran catirtilar." | turkish-deasciify
-    $ cat somefile.txt | turkish-deasciify
-    """
-
-
-    def deasciify(self):
-        string = sys.stdin.read()
-        dea = Deasciifier(string)
-        result = dea.convert_to_turkish()
-        sys.stdout.write(result)
+"""
+Legacy script entry point. When installed via pip, use the 'turkish-deasciify'
+console script instead. When running from source: python3 turkish-deasciify
+or: python3 -m turkish
+"""
+from turkish.__main__ import main
 
 if __name__ == "__main__":
-    d = Deasciify()
-    d.deasciify()
+    main()
